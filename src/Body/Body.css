@@ -4,6 +4,9 @@
 body {
   margin: 0;
 }
+.bigdiv {
+  background: hsl(220, 38%, 11%);
+}
 .bodydiv {
   background: hsl(220, 38%, 11%);
   color: white;
@@ -19,20 +22,24 @@ body {
 .lucide {
   background-color: #1fc77e;
   clip-path: circle(300px);
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
 }
 .lucide2 {
   background-color: #7f3dd2;
   clip-path: circle(300px);
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
 }
 .textdiv {
   width: 40%;
   /* position: absolute; */
+}
+
+.textdiv p {
+  width: 400px;
 }
 .firsth1 {
   font-family: FS Meridian Trial;
@@ -46,8 +53,8 @@ body {
 }
 .circle {
   position: relative;
-  bottom: 290px;
-  width: 420px;
+  bottom: 310px;
+  width: 440px;
   /* z-index: -1; */
 }
 .secondh1 {
@@ -79,10 +86,11 @@ body {
   width: 300px;
   position: absolute;
   bottom: 0px;
+  left: 35px;
 }
 
 .boxdiv {
-  width: 400px;
+  width: 450px;
   height: 100px;
   border-radius: 50px 50px 50px 0px;
   /* border-radius: ; */
@@ -91,6 +99,7 @@ body {
 .boxdiv2 {
   width: 100px;
   height: 100px;
+  /* margin-left: 70px; */
   border-radius: 50px 50px 50px 0px;
   /* border-radius: ; */
   background-color: #feea00;
@@ -104,14 +113,14 @@ body {
 }
 
 .boxdiv4 {
-  width: 300px;
+  width: 330px;
   height: 100px;
   border-radius: 50px 50px 50px 50px;
   /* border-radius: ; */
   background-color: white;
 }
 .boxdiv5 {
-  width: 300px;
+  width: 330px;
   height: 100px;
   border-radius: 50px 0px 50px 50px;
   /* border-radius: ; */
@@ -124,13 +133,15 @@ body {
 }
 
 .andrea {
-  width: 250px;
+  width: 320px;
   position: absolute;
-  bottom: -150px;
+  bottom: calc(-118px + -2rem);
+  left: -10px;
+  clip-path: circle(190px);
 }
 
 .headeromni {
-  margin-left: 150px;
+  margin-left: 190px;
   padding-top: 10px;
   /* margin-top: 90px; */
   /* background-color: red; */
@@ -144,7 +155,7 @@ body {
 }
 
 .position1 {
-  width: 400px;
+  width: 450px;
   position: relative;
   /* top: 100px; */
   display: flex;
@@ -153,8 +164,8 @@ body {
 
 .family2pic {
   position: absolute;
-  bottom: 10px;
-  left: 90px;
+  bottom: 0px;
+  left: 110px;
 }
 
 .arrdiv1 {
@@ -168,16 +179,218 @@ body {
   margin-top: 40px;
 }
 
-
-.andreadiv{
+.andreadiv {
   position: relative;
+  /* width: 200px;
+  background-color: red; */
 }
 
-.lastbox{
-display: flex;
-flex-direction: row-reverse;
-justify-content: space-between;
-margin-left: 20px;
-margin-top: 50px;
-/* width: 500px; */
+.lastbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  /* margin-left: 20px; */
+  margin-top: 50px;
+  width: 450px;
+}
+
+.iphonediv {
+  background: #000000;
+  text-align: center;
+  height: 600px;
+  width: 1100px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 30px;
+  position: relative;
+}
+.iphone {
+  margin-top: 100px;
+  /* position: relative; */
+}
+
+.inp1 {
+  height: 72px;
+  width: 774px;
+  font-size: 20px;
+  position: absolute;
+  text-align: start;
+  outline: none;
+  /* bottom: 100px; */
+  left: 120px;
+  top: 450px;
+  /* top: 1500px; */
+  border-radius: 4px;
+  padding: 12px 68px 12px 68px;
+  z-index: 2;
+}
+
+.whitediv {
+  background: white;
+  width: 270px;
+  padding: 10px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  position: relative;
+  bottom: 465px;
+  left: 405px;
+  border-radius: 40px 40px 0px 0px;
+  /* z-index: -1; */
+}
+
+.ava {
+  width: 25px;
+}
+.vid {
+  width: 20px;
+}
+
+.left {
+  width: 20px;
+}
+.circle2 {
+  width: 1px;
+  border-radius: 50%;
+  background-color: black;
+  padding: 10px;
+}
+.rectangle {
+  width: 50px;
+  /* border-radius: 50%; */
+  border-radius: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.phonetop1 {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  height: 25px;
+  align-items: center;
+  margin: 0 auto;
+}
+.phonetop2 {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 270px;
+}
+
+.leftdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatgpt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  width: 90px;
+}
+.wifi {
+  width: 25px;
+}
+.battery {
+  width: 25px;
+}
+.wi-bat {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+}
+
+.phone {
+  width: 25px;
+}
+.leftdiv {
+  align-items: center;
+  color: #007aff;
+}
+.namediv p {
+  /* height: 10px; */
+  margin: 0%;
+}
+
+.type {
+  color: grey;
+  font-size: 10px;
+}
+
+.wallpaper {
+  /* transform: rotate(90deg); */
+  height: 400px;
+
+  /* padding: 10px; */
+  width: 290px;
+  position: relative;
+  bottom: -2px;
+  z-index: 1;
+  right: 10px;
+  /* margin:  0 auto; */
+  /* margin-right: 40px; */
+}
+
+.section2div {
+  display: flex;
+  justify-content: space-between;
+  /* margin:  0 auto; */
+  margin-top: 60px;
+  padding: 100px;
+  
+}
+
+.wallpaper2{
+  position: relative;
+  right: -15px;
+  top: 15px;
+  border-radius: 40px;
+  z-index: 1;
+}
+
+.iphone2{
+  position: absolute;
+  z-index: 2;
+  
+}
+.slack{
+  position: relative;
+  bottom: 470px;
+  right: 360px;
+  z-index: 3;
+}
+
+.rectangle1{
+position: relative;
+bottom: 400px;
+left: 300px;
+}
+
+.rectangle2{
+  position: relative;
+  bottom: 200px;
+  right: 160px;
+  }
+
+.innercircle{
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 250px;
+  left: 250px;
+  z-index: 3;
+}
+.whatsapp{
+  align-items: center;
+  margin: 0 auto;
+
 }
