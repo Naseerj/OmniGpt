@@ -342,10 +342,9 @@ body {
   /* margin:  0 auto; */
   margin-top: 60px;
   padding: 100px;
-  
 }
 
-.wallpaper2{
+.wallpaper2 {
   position: relative;
   right: -15px;
   top: 15px;
@@ -353,31 +352,30 @@ body {
   z-index: 1;
 }
 
-.iphone2{
+.iphone2 {
   position: absolute;
   z-index: 2;
-  
 }
-.slack{
+.slack {
   position: relative;
   bottom: 470px;
   right: 360px;
   z-index: 3;
 }
 
-.rectangle1{
-position: relative;
-bottom: 400px;
-left: 300px;
+.rectangle1 {
+  position: relative;
+  bottom: 400px;
+  left: -130px;
 }
 
-.rectangle2{
+.rectangle2 {
   position: relative;
   bottom: 200px;
-  right: 160px;
-  }
+  right: 60px;
+}
 
-.innercircle{
+.innercircle {
   width: 100px;
   background-color: white;
   border-radius: 50%;
@@ -389,8 +387,55 @@ left: 300px;
   left: 250px;
   z-index: 3;
 }
-.whatsapp{
+.whatsapp {
   align-items: center;
   margin: 0 auto;
-
 }
+.divone {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.colortext {
+  color: #1fc77e;
+}
+.solutiondiv{
+  width: 500px;
+}
+/* .solutiondiv > h1 {
+  font-family: FS Meridian Trial;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+} */
+/* .divone > h1 {
+  font-family: General Sans;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 78px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  color: #000000;
+} */
+
+.divtwo{
+  width: 560px;
+}
+
+/* .rectangle1 {
+  position: relative;
+  bottom: 400px;
+  left: 300px;
+}
+
+.rectangle2 {
+  position: relative;
+  bottom: 200px;
+  right: 160px;
+}
+ 1300px downward */

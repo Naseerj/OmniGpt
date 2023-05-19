@@ -117,7 +117,7 @@ const Body = () => {
         </div>
       </div>
       <div className="section2div">
-        <div>
+        <div className="divtwo"> 
           <img className="iphone2" src={iphone2} alt="" />
           <img className="wallpaper2" src={wallpaper2} alt="" />
           <img className="slack" src={slack} alt="" />
@@ -127,9 +127,9 @@ const Body = () => {
          <img className="whatsapp" src={whatsapp} alt="" />
          </div>
         </div>
-        <div>
-          <h1>The All-in-One Solution for Conversational AI</h1>
-          <div>
+        <div className="solutiondiv">
+          <h1>The <span className="colortext">All-in-One</span>  Solution for Conversational AI</h1>
+          <div className="divone">
             <h3> Seamless Collaboration</h3>
             <p>
               Easily collaborate with team members on projects and ideas in
