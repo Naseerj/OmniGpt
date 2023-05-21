@@ -25,6 +25,7 @@ import slack from '../images/Facebook_Messenger_logo_2020 1.svg'
 import whatsapp from '../images/WhatsApp 1.svg'
 import rectangle1 from '../images/Rectangle 13067.svg'
 import rectangle2 from '../images/Rectangle 13068.svg'
+import collaboration from '../images/collaboration 1.svg'
 
 
 const Body = () => {
@@ -130,19 +131,22 @@ const Body = () => {
         <div className="solutiondiv">
           <h1>The <span className="colortext">All-in-One</span>  Solution for Conversational AI</h1>
           <div className="divone">
-            <h3> Seamless Collaboration</h3>
+           <div>
+           <h2> Seamless Collaboration</h2>
             <p>
               Easily collaborate with team members on projects and ideas in
               real-time, boosting productivity and teamwork
             </p>
+           </div>
+            <img className="collabo" src={collaboration} alt="" />
           </div>
           <h3> Multi-Channel Support</h3>
-          <hr />
           <h3> Advanced AI Capabilities</h3>
-          <hr />
           <h3> Multi-Channel Support</h3>
-          <hr />
         </div>
+      </div>
+      <div className="reviewdiv">
+        <h1>See what people are saying</h1>
       </div>
     </div>
   );

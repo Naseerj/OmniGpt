@@ -395,15 +395,19 @@ body {
   background: #ffffff;
   padding: 20px;
   border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .colortext {
   color: #1fc77e;
 }
-.solutiondiv{
+.solutiondiv {
   width: 500px;
+  /* color: white; */
 }
-/* .solutiondiv > h1 {
+
+.solutiondiv > h1 {
   font-family: FS Meridian Trial;
   font-size: 60px;
   font-weight: 500;
@@ -411,7 +415,16 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: white;
-} */
+}
+
+.solutiondiv h3 {
+  color: white;
+  /* width: 400px; */
+  padding: 23px;
+  background: #FFFFFF33;
+  border-radius: 10px;
+
+}
 /* .divone > h1 {
   font-family: General Sans;
   font-size: 30px;
@@ -423,8 +436,23 @@ body {
   color: #000000;
 } */
 
-.divtwo{
+.divtwo {
   width: 560px;
+}
+.divone p {
+  margin-top: 0px;
+  font-family: General Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 340px;
+}
+
+.divone h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /* .rectangle1 {
@@ -439,3 +467,17 @@ body {
   right: 160px;
 }
  1300px downward */
+
+.collabo {
+  background-color: #1fc77e;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.reviewdiv{
+  background-color: red;
+}
