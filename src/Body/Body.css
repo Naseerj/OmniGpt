@@ -1,6 +1,7 @@
-/* *{
-  margin: 0;
-} */
+* {
+  /* margin: 0; */
+  /* background-color: #111826; */
+}
 body {
   margin: 0;
 }
@@ -421,9 +422,8 @@ body {
   color: white;
   /* width: 400px; */
   padding: 23px;
-  background: #FFFFFF33;
+  background: #ffffff33;
   border-radius: 10px;
-
 }
 /* .divone > h1 {
   font-family: General Sans;
@@ -478,6 +478,6 @@ body {
   margin-top: 10px;
 }
 
-.reviewdiv{
+.reviewdiv {
   background-color: red;
 }
